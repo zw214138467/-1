@@ -48,9 +48,13 @@ kits.primaryKey = function(){
 // 封装tap,移动端的按下和松开的时间和距离
 
 /**
- * 
- * 
- * 
+  * @author 谁写的 联系方式
+ * @date 写这个代码的时间
+ * @description 功能是什么 - 封装好的移动端的单击操作
+ * @param { 类型 - element } element 
+ * @param {number} span 按下的时间间隔
+ * @param {number} offset 允许的位置偏差
+ * @param {function} callback 回调函数
  */
 
  function tap(element,callback,span,offset) {
